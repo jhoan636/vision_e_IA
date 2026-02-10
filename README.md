@@ -83,7 +83,65 @@
 ###  Regiones de interes
 ![alt text](https://github.com/jhoan636/vision_e_IA/blob/main/reto_3/regionesDeInteres.png)
 
+# Punto 4 – Seguimiento y Clasificación de Colores
+
+## Resultados obtenidos
+
+* La figura fue correctamente segmentada en cada frame del video.
+* El sistema identificó de manera adecuada el color dominante de la figura.
+* El seguimiento mediante bounding box fue estable durante el movimiento.
+* La clasificación fue correcta para los tres colores analizados.
+
+---
+
+## Conclusiones
+
+* El uso del espacio de color HSV facilita la segmentación basada en color.
+* La segmentación combinada con operaciones morfológicas mejora la robustez del sistema.
+* El seguimiento mediante bounding box permite localizar la figura de interés en tiempo real.
+* El análisis por área es una estrategia simple y efectiva para clasificar colores.
+* Este ejercicio refuerza conceptos fundamentales de visión por computador relacionados con segmentación, seguimiento y clasificación básica.
+
+# Punto 5 – Filtrado y Reducción de Ruido
+
+## Resultados obtenidos
+
+* El **ruido sal y pimienta** afectó de manera significativa la calidad visual de la imagen.
+* El **filtro de media** redujo el ruido, pero produjo una pérdida notable de nitidez.
+* El **filtro gaussiano** ofreció un suavizado más natural, aunque no eliminó completamente el ruido impulsivo.
+* El **filtro de mediana** fue el más efectivo para eliminar el ruido sal y pimienta.
+* La implementación de **OpenCV** presentó resultados muy similares a la versión manual, validando la lógica del algoritmo.
+
+---
+
+## Conclusiones
+
+* El tipo de ruido presente en una imagen determina el filtro más adecuado.
+* El filtro de mediana es especialmente eficaz frente al ruido sal y pimienta.
+* Las implementaciones manuales permiten comprender el funcionamiento interno de los filtros.
+* OpenCV ofrece implementaciones optimizadas y confiables para procesamiento de imágenes.
+* Este ejercicio refuerza conceptos clave de preprocesamiento en visión por computador.
+
+---
+
+## Evidencias
+
+### Imagen original en escala de grises.
+![alt text](https://github.com/jhoan636/vision_e_IA/blob/main/reto_5/imagenOriginal.png)
+### Imagen con ruido sal y pimienta.
+![alt text](https://github.com/jhoan636/vision_e_IA/blob/main/reto_5/imagenRuido.png)
+### Resultados del filtrado con media, gaussiano y mediana.
+![alt text](https://github.com/jhoan636/vision_e_IA/blob/main/reto_5/imagenFiltroMediaManual.png)
+![alt text](https://github.com/jhoan636/vision_e_IA/blob/main/reto_5/imagenGaussiano.png)
+![alt text](https://github.com/jhoan636/vision_e_IA/blob/main/reto_5/imagenMediana.png)
+### Resultados filtro de mediana OpenCV.
+![alt text](https://github.com/jhoan636/vision_e_IA/blob/main/reto_5/imagenMedianaOpenCV.png)
+### Captura de la ejecución del notebook.
+![alt text](https://github.com/jhoan636/vision_e_IA/blob/main/reto_5/imagenEvidencia.png)
+
 ## Estado del reto
 
 ✔ Reto 1 completado
 ✔ Punto 3 completado
+✔ Punto 4 completado
+✔ Punto 5 completado
