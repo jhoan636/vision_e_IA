@@ -63,10 +63,9 @@
 ##  Evidencias
 
 ###  Imagen Original
-![alt text][(https://github.com/jhoan636/vision_e_IA/blob/main/reto_3/imagenOriginal.png)
+![alt text](https://github.com/jhoan636/vision_e_IA/blob/main/reto_3/imagenOriginal.png)
 
 ###  Regiones de interes
-https://github.com/jhoan636/vision_e_IA/blob/main/reto_3/regionesDeInteres.png
 ![alt text](https://github.com/jhoan636/vision_e_IA/blob/main/reto_3/regionesDeInteres.png)
 
 ## Estado del reto
